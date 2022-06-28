@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height: 100vh;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75),#141414),url(../img/Image6.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+/* NAVBAR STYLING */
+.navbar .navbar-brand{
+    font-size:1.5rem;
+    font-weight:500;
+    transform:translateX(5vw);
+    font-family: poppins;
+}
+.navbar .navbar-brand a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar .navbar-brand::after{
+    position:absolute;
+    content:"";
+    height:3px;
+    width:0%;
+    left:0;
+    bottom:16px;
+    background-color:orangered;
+}
+.navbar .navbar-brand:hover:after{
+    width:100%;
+   transition:0.6s;
+}
+.navbar .navbar-brand:hover{
+    cursor:pointer;
+}
+#navbar ul li a{
+    font-size:1rem;
+   font-weight:400;
+   transform:translateX(-5vw);
+   color:#fff;
+}
+#navbar ul li a:hover{
+    color:orangered;
+}
+/* BUTTON STYLING */
+.heading{
+    color:#fff;
+    position: absolute;
+    top:34%;
+    left:38%;
+    font-size:2rem;
+    font-weight:500;
+    font-family:poppins;
+}
+.button{
+    position: absolute;
+    top:50%;
+    left:-2.5%;
+    display:flex;
+    flex-direction:row;
+    column-gap:2rem;
+}
+.btn{
+    font-size:500;
+}
+h3{
+    font-size:500;
+    font-size:2rem;
+     font-style: italic;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:#000;
+}
+#first{
+font-size: 1rem;
+animation: floating 2.3s ease-in-out  infinite;
+}
+#second{
+    font-size: 1rem;
+animation: hovering 2s ease-in-out infinite;
+}
+@keyframes floating{
+    0%{
+       transform:translateY(0);
+    }
+    50%{
+        transform:translateY(15px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+@keyframes hovering{
+    0%{
+       transform:translateY(0);
+    }
+    50%{
+        transform:translateY(15px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+@media only screen and (min-width: 280px) and (max-width:912px) {
+    body{
+        background-image:
+         linear-gradient(rgba(0, 0, 0, 0.75),#141414),url(../img/Image6.jpg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size: cover;
+        width:100%;
+        height:100vh;
+    }
+    h3{
+        font-size:1.5rem;
+    }
+    .heading{
+        position: absolute;
+        top:25%;
+        left:20%;
+        font-weight:500;
+        color: #fff;
+        font-size:1.9rem;
+    }
+    /* .button{
+    position: absolute;
+    top:35%;
+    /* left:-8%; */
+   .navbar .navbar-brand a{
+       transform: translateX(2vw);
+   }
+   .navbar .nav-item .nav-link{
+    transform: translateX(2vw);
+   }
+   article{
+    transform:translateX(7.35vw);
+  }
+   .navbar{
+    z-index: 3;
+  }
+
+    }
