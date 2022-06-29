@@ -21,6 +21,10 @@ body{
     transform:translateX(5vw);
     font-family: poppins;
 }
+.navbar .navbar-brand a{
+    text-decoration: none;
+    color: #fff;
+}
 .navbar .navbar-brand::after{
     position:absolute;
     content:"";

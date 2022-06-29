@@ -113,7 +113,7 @@ animation: hovering 2s ease-in-out infinite;
         transform:translateY(0px);
     }
 }
-@media only screen and (min-width: 280px) and (max-width:912px) {
+@media only screen and (min-width: 301px) and (max-width:912px) {
     body{
         background-image:
          linear-gradient(rgba(0, 0, 0, 0.75),#141414),url(../img/Image6.jpg);
@@ -121,7 +121,7 @@ animation: hovering 2s ease-in-out infinite;
         background-position:center;
         background-size: cover;
         width:100%;
-        height:100vh;
+        height:105vh;
     }
     h3{
         font-size:1.5rem;
@@ -152,3 +152,42 @@ animation: hovering 2s ease-in-out infinite;
   }
 
     }
+    @media only screen and (min-width: 280px) and (max-width:300px) {
+        body{
+            background-image:
+             linear-gradient(rgba(0, 0, 0, 0.75),#141414),url(../img/Image6.jpg);
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size: cover;
+            width:100%;
+            height:150vh;
+        }
+        h3{
+            font-size:1.5rem;
+        }
+        .heading{
+            position: absolute;
+            top:25%;
+            left:20%;
+            font-weight:500;
+            color: #fff;
+            font-size:1.9rem;
+        }
+        /* .button{
+        position: absolute;
+        top:35%;
+        /* left:-8%; */
+       .navbar .navbar-brand a{
+           transform: translateX(2vw);
+       }
+       .navbar .nav-item .nav-link{
+        transform: translateX(2vw);
+       }
+       article{
+        transform:translateX(7.35vw);
+      }
+       .navbar{
+        z-index: 3;
+      }
+
+        }

@@ -46,6 +46,9 @@ class UserController extends Controller
     }
     public function countryEdit(User $user, Request $request)
     {
+        if (Str::length($request->country) > 200) {
+            return back()->with('status','Country Name cannot be more than 200 Characters');
+        }
         $user->update(['country' => $request->country]);
         return back();
     }
@@ -60,16 +63,31 @@ class UserController extends Controller
     }
     public function phoneEdit(User $user, Request $request)
     {
+        if (Str::length($request->tel) < 10 || Str::length($request->tel) >13) {
+            return back()->with('status','Invalid phone Number!');
+        }
+        if(preg_match('/^[A-Za-z]+/', $request->tel)){
+            return back()->with('status','Phone Number Cannot Contain Letters!');
+        }
         $user->update(['phone' => $request->tel]);
         return back();
     }
     public function schoolEdit(User $user, Request $request)
     {
+        if (Str::length($request->school) > 200) {
+            return back()->with('status','School Name cannot be more than 200 Characters');
+        }
+
+
+
         $user->update(['school' => $request->school]);
         return back();
     }
     public function regionEdit(User $user, Request $request)
     {
+        if (Str::length($request->region) > 255) {
+            return back()->with('status','Country Name cannot be more than 255 Characters');
+        }
         $user->update(['region' => $request->region]);
         return back();
     }

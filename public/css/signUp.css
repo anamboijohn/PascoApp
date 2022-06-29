@@ -27,19 +27,22 @@ input{
     text-align:center;
 }
 #user{
-    transform:translate(1vw,-5vh);
+    position:absolute;
+    bottom: 30%;
+   left:2%;
+    z-index: 99
 }
 #email1{
-    transform:translate(1vw,-5vh);
+    position:absolute;
+    bottom: 30%;
+   left:2%;
+    z-index: 99
 }
 #pwd{
-    transform:translate(1vw,-5vh);
-}
-#Confirmpassword{
-    transform:translate(1vw,-5vh);
-}
-#Confirmpassword:hover{
-    cursor: pointer;
+    position:absolute;
+    bottom: 30%;
+   left:2%;
+    z-index: 99
 }
 #pwd:hover{
     cursor: pointer;

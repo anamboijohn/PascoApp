@@ -97,17 +97,6 @@
           <div class="footer">
             <div class="container">
               <footer>
-                <div class="link">
-                  <a href="#" class="facebook-logo">
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a href="#" class="twitter-logo">
-                    <i class="fa-brands fa-twitter"></i>
-                  </a>
-                  <a href="#" class="instagram-logo">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </div>
                 <article>
                   <p>Copyright © 2022 Invaders All rights reserved</p>
                   <ul>

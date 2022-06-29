@@ -16,7 +16,7 @@
             </div>
 
             <!-- Name -->
-            <div class="form-outline mb-4">
+            <div class="form-outline mb-4" style="position: relative">
                 <x-label for="name" :value="__('Name')" />
 
                 <x-input id="name" type="text" name="name" :value="old('name')" placeholder='          Name'
@@ -25,7 +25,7 @@
             </div>
 
             <!-- Email Address -->
-            <div class="form-outline mb-4">
+            <div class="form-outline mb-4" style="position: relative">
                 <x-label for="email" :value="__('Email')" />
 
                 <x-input id="email" placeholder='          www.example@gmail.com' type="email" name="email"
@@ -34,7 +34,7 @@
             </div>
 
             <!-- Password -->
-            <div class="form-outline mb-3">
+            <div class="form-outline mb-3" style="position: relative;">
                 <x-label for="password" :value="__('Password')" />
 
                 <x-input id="password" placeholder='          Create Password' type="password" name="password" required
@@ -43,7 +43,7 @@
             </div>
 
             <!-- Confirm Password -->
-            <div class="form-outline mb-3">
+            <div class="form-outline mb-3" style="position: relative;">
                 <x-label for="password_confirmation" :value="__('Confirm Password')" />
 
                 <x-input id="password_confirmation" class="block mt-1 w-full" placeholder='          Confirm Password'

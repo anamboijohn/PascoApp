@@ -42,7 +42,7 @@
             <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom  container-fluid" style="background: #eae9e6">
                 <a href="{{ route('profile') }}" class="d-flex align-items-center text-dark text-decoration-none">
                     <img src="{{'/storage/'. Auth::user()->avatar }}"
-                    style="height: 50px; border-radius:50%; width: 50px; z-index:99" alt="Avatar" class="img-fluid my-5"  />
+                    style="height: 50px; border-radius:50%; width: 50px; z-index:99; background:url('img/image1.jpg');" alt="Avatar" class="img-fluid my-5"  />
                     <span class="fs-4">{{ Auth::user()->name }}</span>
                 </a>
 
