@@ -4,7 +4,7 @@
         <h1 class="h2">Dashboard</h1>
     </div>
 
-    <center>     <h6>Your progress Chart</h6>   </center>
+    <center>     <h3>Your progress Chart</h3>   </center>
     <div style="margin-top: 20vh">
         <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
     </div>

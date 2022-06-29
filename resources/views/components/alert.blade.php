@@ -5,7 +5,6 @@
 <style>
     .error {
         height: 5vh;
-        background: #e85d5d87;
         color: rgb(255, 10, 10);
         position: absolute;
         font-weight: 900;
@@ -17,31 +16,61 @@
 
     @keyframes errorAnimate {
         0% {
-            background-color: rgb(234, 120, 120);
+            background-color: #f79b9b87;
             left: 0px;
             top: 0px;
         }
 
-        25% {
-            background-color: #e85d5d87;
-            left: 25vw;
+        10% {
+            background: transparent;
+            left: 10vw;
             top: 0px;
         }
 
-        50% {
-            background-color: #f1414187;
-            left: 50vw;
+        20% {
+            background-color: #c42c2c87;
+            left: 20vw;
             top: 0;
         }
 
-        75% {
-            background-color: #ea282887;
-            left: 75vw;
+        30% {
+            background: transparent;
+            left: 30vw;
             top: 0px;
         }
 
+        40% {
+            background-color: #76030387;
+            left: 40vw;
+            top: 0px;
+        }
+        50% {
+            background: transparent;
+            left: 50vw;
+            top: 0px;
+        }
+        60% {
+            background-color: #76030387;
+            left: 60vw;
+            top: 0px;
+        }
+        70% {
+            background-color: transparent;
+            left: 70vw;
+            top: 0px;
+        }
+        80% {
+            background-color: #76030387;
+            left: 80vw;
+            top: 0px;
+        }
+        90% {
+            background-color: transparent;
+            left: 90vw;
+            top: 0px;
+        }
         100% {
-            background-color: red;
+            background-color: #76030387;
             left: 100vw;
             top: 0px;
         }

@@ -96,7 +96,7 @@
                         <div class="row">
                             <div class="col">
                                 <a href="{{ route('public.profile', ['user'=>$user->user_id]) }}">
-                                    <img src="{{asset('/storage/'. $user->user->avatar) }}" style="height: 35%; border-radius:50%; width: 55%; z-index:99; position: sticky; margin-top:0;" alt="No Profile Image" class="img-fluid my-5"  />
+                                    <img src="{{asset('/storage/'. $user->user->avatar) }}" style="height: 35%; border-radius:50%; width: 55%; z-index:99; position: sticky; margin-top:0; background:url('img/image1.jpg');" alt="No Profile Image" class="img-fluid my-5"  />
                                 </a>
                             </div>
                             <div class="col lis">
